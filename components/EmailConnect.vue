@@ -1,6 +1,8 @@
 <template>
   <div class="hidden md:block z-50">
-    <div class="fixed z-50 bottom-0 right-8 flex flex-col">
+    <div
+      class="animate__animated animate__fadeIn animate__delay-2s animate__faster fixed z-50 bottom-0 right-8 flex flex-col"
+    >
       <a
         class="text-light-grey vertical-text hover:text-primary transition-colors duration-300 ease-in"
         href="mailto:kendricktunji@gmail.com"

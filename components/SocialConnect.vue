@@ -1,6 +1,8 @@
 <template>
   <div class="hidden md:block z-50">
-    <ul class="fixed z-50 bottom-0 left-8 flex flex-col">
+    <ul
+      class="animate__animated animate__fadeIn animate__delay-2s animate__faster fixed z-50 bottom-0 left-8 flex flex-col"
+    >
       <li
         v-for="(link, index) in links"
         :key="index"

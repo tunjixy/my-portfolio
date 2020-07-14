@@ -8,7 +8,7 @@
       <div class="flex items-center">
         <nuxt-link to="/">
           <img
-            class="h-10 w-8"
+            class="h-10 w-8 animate__animated animate__slideInDown animate__faster"
             src="@/assets/images/logo.png"
             alt="Olatunji Ekisanya"
           />
@@ -16,7 +16,11 @@
       </div>
       <div>
         <ul class="hidden md:flex items-center">
-          <li v-for="(link, index) in links" :key="index" class="mr-6">
+          <li
+            v-for="(link, index) in links"
+            :key="index"
+            class="mr-6 animate__animated animate__slideInDown animate__faster"
+          >
             <a
               v-scroll-to="`#${link.tag}`"
               href="#"
@@ -25,7 +29,7 @@
               {{ link.name }}
             </a>
           </li>
-          <li>
+          <li class="animate__animated animate__slideInDown animate__faster">
             <a
               class="btn btn-outline rounded shadow-btn"
               href="/OLATUNJI EKISANYA EMMANUEl.docx"
@@ -36,7 +40,7 @@
         </ul>
         <a
           title="Resume"
-          class="md:hidden flex flex-col items-center justify-center text-sm hover:bg-primary hover:bg-opacity-25"
+          class="md:hidden flex flex-col items-center justify-center text-sm hover:bg-primary hover:bg-opacity-25 animate__animated animate__slideInDown animate__faster"
           href="/OLATUNJI EKISANYA EMMANUEl.docx"
         >
           <i class="fas fa-file-word text-light-grey text-2xl" />

@@ -124,6 +124,11 @@ export default {
       },
       {
         rel: 'stylesheet',
+        href:
+          'https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css',
+      },
+      {
+        rel: 'stylesheet',
         href: 'https://use.fontawesome.com/releases/v5.8.2/css/all.css',
         integrity:
           'sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay',
@@ -139,7 +144,10 @@ export default {
    ** Plugins to load before mounting the App
    ** https://nuxtjs.org/guide/plugins
    */
-  plugins: ['~plugins/vue-scrollto.js'],
+  plugins: [
+    '~plugins/vue-scrollto.js',
+    { src: '@/plugins/aos', mode: 'client' },
+  ],
   /*
    ** Auto import components
    ** See https://nuxtjs.org/api/configuration-components

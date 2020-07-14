@@ -2,23 +2,33 @@
   <main>
     <nav-header />
     <section id="home" class="container min-h-screen pt-24 sm:pt-32">
-      <h1 class="text-primary font-bold text-base">Hi, my name is</h1>
+      <h1
+        class="animate__animated animate__fadeInUp animate__delay-1s animate__faster text-primary font-bold text-base"
+      >
+        Hi, my name is
+      </h1>
       <h2
-        class="font-bold text-light-grey leading-tight text-4xl sm:text-5xl md:text-6xl mt-3"
+        class="animate__animated animate__fadeInUp animate__delay-1s animate__faster font-bold text-light-grey leading-tight text-4xl sm:text-5xl md:text-6xl mt-3"
       >
         Olatunji Ekisanya.
       </h2>
-      <h3 class="font-bold leading-tight text-3xl sm:text-5xl md:text-6xl">
+      <h3
+        class="animate__animated animate__fadeInUp animate__delay-1s animate__faster font-bold leading-tight text-3xl sm:text-5xl md:text-6xl"
+      >
         I build things for the web.
       </h3>
-      <div class="mt-12">
+      <div
+        class="animate__animated animate__fadeInUp animate__delay-1s animate__faster mt-12"
+      >
         <p class="text-base max-w-lg leading-relaxed">
           I'm a Frontend Developer based in Lagos, Nigeria specializing in
           building (and occasionally designing) exceptional websites,
           applications, and everything in between.
         </p>
       </div>
-      <div>
+      <div
+        class="animate__animated animate__fadeInUp animate__delay-1s animate__faster"
+      >
         <a
           aria-label="Get In Touch"
           class="inline-block mt-12 btn btn-outline py-4 px-8 rounded"
@@ -28,7 +38,7 @@
         </a>
       </div>
     </section>
-    <section id="about" class="pt-40">
+    <section id="about" data-aos="fade-up" class="pt-40">
       <div class="container">
         <h3 class="text-light-grey font-bold text-3xl relative line">
           About Me
@@ -75,7 +85,7 @@
         </div>
       </div>
     </section>
-    <section id="experience" class="pt-48">
+    <section id="experience" data-aos="fade-up" class="pt-48">
       <div class="container max-w-3xl mx-auto">
         <h3 class="text-light-grey font-bold text-3xl relative line">
           Where I've Worked
@@ -104,7 +114,7 @@
         </tabs>
       </div>
     </section>
-    <section id="projects" class="pt-48">
+    <section id="projects" data-aos="fade-up" class="pt-48">
       <div class="container">
         <h3 class="text-light-grey font-bold text-3xl relative line">
           Projects I've Built
@@ -112,7 +122,7 @@
         <project-card-block />
       </div>
     </section>
-    <section id="contact" class="pt-48 pb-20">
+    <section id="contact" data-aos="fade-up" class="pt-48 pb-20">
       <div class="container max-w-xl mx-auto">
         <p class="text-primary text-center">What's Next?</p>
         <h3

@@ -3,6 +3,7 @@
     <div
       v-for="(project, index) in projects"
       :key="index"
+      data-aos="zoom-in"
       class="w-full flex sm:w-1/2 lg:w-1/3 sm:px-2 mb-4"
     >
       <div

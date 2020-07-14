@@ -7,7 +7,11 @@
     <div class="px-6 sm:px-16 md:px-12 h-16 flex items-center justify-between">
       <div class="flex items-center">
         <nuxt-link to="/">
-          T
+          <img
+            class="h-10 w-8"
+            src="@/assets/images/logo.png"
+            alt="Olatunji Ekisanya"
+          />
         </nuxt-link>
       </div>
       <div>

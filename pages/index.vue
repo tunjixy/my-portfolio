@@ -22,8 +22,7 @@
       >
         <p class="text-base max-w-lg leading-relaxed">
           I'm a Frontend Developer based in Lagos, Nigeria specializing in
-          building (and occasionally designing) exceptional websites,
-          applications, and everything in between.
+          building and coding beautifully simple things, and I love what I do.
         </p>
       </div>
       <div
@@ -117,7 +116,7 @@
     <section id="projects" data-aos="fade-up" class="pt-48">
       <div class="container">
         <h3 class="text-light-grey font-bold text-3xl relative line">
-          Projects I've Built
+          Some Things I've Built
         </h3>
         <project-card-block />
       </div>

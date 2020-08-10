@@ -132,8 +132,7 @@
         <p class="text-center leading-relaxed text-base mt-5">
           I am based in Lagos but happy to either work remote or travel to your
           location. Feel free to contact me for any project request, hackathon,
-          or a chess game. My inbox is always open, I’d try my best to answer
-          your mail!
+          or a chess game. My inbox is always open.
         </p>
         <div class="mt-16 flex items-center justify-center">
           <a

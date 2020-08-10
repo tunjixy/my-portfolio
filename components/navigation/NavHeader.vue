@@ -41,7 +41,7 @@
         <a
           title="Resume"
           class="md:hidden flex flex-col items-center justify-center text-sm hover:bg-primary hover:bg-opacity-25 animate__animated animate__slideInDown animate__faster"
-          href="/OLATUNJI EKISANYA EMMANUEl.docx"
+          href="/OLATUNJI EKISANYA EMMANUEL.pdf"
         >
           <i class="fas fa-file-word text-light-grey text-2xl" />
         </a>

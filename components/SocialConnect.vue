@@ -28,23 +28,23 @@ export default {
       links: [
         {
           icon: 'fab fa-facebook-f',
-          url: '',
+          url: 'https://www.facebook.com/ekisanya.tunji',
         },
         {
           icon: 'fab fa-twitter',
-          url: '',
+          url: 'https://twitter.com/tjxy',
         },
-        {
+        /* {
           icon: 'fab fa-instagram',
           url: '',
-        },
+        }, */
         {
           icon: 'fab fa-linkedin-in',
-          url: '',
+          url: 'https://www.linkedin.com/in/olatunji-ekisanya-41ab32182/',
         },
         {
           icon: 'fab fa-github',
-          url: '',
+          url: 'https://github.com/tunjixy',
         },
       ],
     }

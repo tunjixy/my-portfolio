@@ -55,11 +55,11 @@
                 always build products that provide pixel-perfect, performant
                 experiences.
               </p>
-              <p class="mt-4 sm:text-lg">
+              <!-- <p class="mt-4 sm:text-lg">
                 Shortly after graduating from Northeastern University, I joined
                 the engineering team at Upstatement where I work on a wide
                 variety of interesting and meaningful projects on a daily basis.
-              </p>
+              </p> -->
               <p class="mt-4 sm:text-lg">
                 Here are technologies I've been working with:
               </p>
@@ -84,7 +84,7 @@
         </div>
       </div>
     </section>
-    <section id="experience" data-aos="fade-up" class="pt-48">
+    <!-- <section id="experience" data-aos="fade-up" class="pt-48">
       <div class="container max-w-3xl mx-auto">
         <h3 class="text-light-grey font-bold text-3xl relative line">
           Where I've Worked
@@ -112,7 +112,7 @@
           <tab title="Fast Recharge">Hello From Tab 4</tab>
         </tabs>
       </div>
-    </section>
+    </section> -->
     <section id="projects" data-aos="fade-up" class="pt-48">
       <div class="container">
         <h3 class="text-light-grey font-bold text-3xl relative line">

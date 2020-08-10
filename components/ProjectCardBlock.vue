@@ -55,29 +55,18 @@ export default {
     return {
       projects: [
         {
-          title: 'Time to Have More Fun',
+          title: 'Bulksmslive',
           description:
-            'A single page web app for helping me choose where to travel, built with Next.js, Firebase, and Tailwind CSS',
-          stacks: ['Next.js', 'Tailwind CSS', 'Firebase'],
-          githubUrl: 'https://github.com/bchiang7/time-to-have-more-fun',
-          siteUrl: 'https://time-to-have-more-fun.now.sh/',
+            'A web application for sending, schedulling and managing bulk SMS',
+          stacks: ['Nuxt.js', 'Tailwind CSS'],
+          siteUrl: 'https://www.bulksmslive.com/',
         },
         {
-          title: 'Building a Headless Mobile App CMS From Scratch',
-          description:
-            'Find out how we built a custom headless CMS with Node, Express, and Firebase for a project at Upstatement',
-          stacks: ['Node', 'Express', 'Firebase', 'Vue'],
-          githubUrl: '',
-          siteUrl:
-            'https://medium.com/stories-from-upstatement/building-a-headless-mobile-app-cms-from-scratch-bab2d17744d9',
-        },
-        {
-          title: 'Google Keep Clone',
-          description:
-            'A simple Google Keep clone built with Vue and Firebase.',
-          stacks: ['Firebase', 'Vue'],
-          githubUrl: 'https://github.com/bchiang7/google-keep-vue-firebase',
-          siteUrl: 'https://keep-vue.netlify.com/',
+          title: 'Quiz Up',
+          description: 'A simple quiz web application',
+          stacks: ['Vue', 'Tailwind CSS'],
+          githubUrl: 'https://github.com/tunjixy/quiz-up',
+          siteUrl: 'https://quizup.netlify.app',
         },
       ],
     }

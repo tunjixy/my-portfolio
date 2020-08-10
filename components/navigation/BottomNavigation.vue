@@ -48,11 +48,11 @@ export default {
           icon: 'fas fa-user',
           tag: 'about',
         },
-        {
+        /* {
           name: 'Experience',
           icon: 'fas fa-briefcase',
           tag: 'experience',
-        },
+        }, */
         {
           name: 'Projects',
           icon: 'fas fa-tasks',

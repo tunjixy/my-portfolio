@@ -32,7 +32,7 @@
           <li class="animate__animated animate__slideInDown animate__faster">
             <a
               class="btn btn-outline rounded shadow-btn"
-              href="/OLATUNJI EKISANYA EMMANUEl.docx"
+              href="/OLATUNJI EKISANYA EMMANUEL.pdf"
             >
               Resume
             </a>
@@ -61,10 +61,10 @@ export default {
           name: 'About',
           tag: 'about',
         },
-        {
+        /* {
           name: 'Experience',
           tag: 'experience',
-        },
+        }, */
         {
           name: 'Projects',
           tag: 'projects',

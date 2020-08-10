@@ -7,7 +7,7 @@
       class="w-full flex sm:w-1/2 lg:w-1/3 sm:px-2 mb-4"
     >
       <div
-        class="py-6 px-8 flex flex-col bg-secondary rounded-lg shadow-lg transition transform hover:-translate-y-2 duration-75 ease-in"
+        class="w-full py-6 px-8 flex flex-col bg-secondary rounded-lg shadow-lg transition transform hover:-translate-y-2 duration-75 ease-in"
       >
         <div class="flex items-center justify-between">
           <i class="far fa-folder-open text-primary text-3xl" />

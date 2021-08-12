@@ -32,7 +32,8 @@
           <li class="animate__animated animate__slideInDown animate__faster">
             <a
               class="btn btn-outline rounded shadow-btn"
-              href="/OLATUNJI EKISANYA EMMANUEL.pdf"
+              target="_blank"
+              href="https://docs.google.com/document/d/1V3PlSdRFED66DoiOJeBibY3GFhxQNy9R/edit?usp=sharing&ouid=101522031491521018844&rtpof=true&sd=true"
             >
               Resume
             </a>
@@ -41,7 +42,8 @@
         <a
           title="Resume"
           class="md:hidden flex flex-col items-center justify-center text-sm hover:bg-primary hover:bg-opacity-25 animate__animated animate__slideInDown animate__faster"
-          href="/OLATUNJI EKISANYA EMMANUEL.pdf"
+          target="_blank"
+          href="https://docs.google.com/document/d/1V3PlSdRFED66DoiOJeBibY3GFhxQNy9R/edit?usp=sharing&ouid=101522031491521018844&rtpof=true&sd=true"
         >
           <i class="fas fa-file-word text-light-grey text-2xl" />
         </a>
@@ -61,10 +63,10 @@ export default {
           name: 'About',
           tag: 'about',
         },
-        /* {
+        {
           name: 'Experience',
           tag: 'experience',
-        }, */
+        },
         {
           name: 'Projects',
           tag: 'projects',

@@ -22,7 +22,7 @@ export default {
         hid: 'description',
         name: 'description',
         content:
-          'Olatunji Ekisanya is a frontend developer based in Lagos, Nigeria specialising in building (and most times designing) exceptional, high-quality websites and applications.',
+          'Olatunji Ekisanya is a frontend developer based in Lagos, Nigeria specializing in building and coding beautifully simple things, and I love what I do.',
       },
       {
         hid: 'msapplication-TileColor',
@@ -54,7 +54,7 @@ export default {
         hid: 'og:description',
         name: 'og:description',
         content:
-          'Olatunji Ekisanya is a frontend developer based in Lagos, Nigeria specialising in building (and most times designing) exceptional, high-quality websites and applications.',
+          'Olatunji Ekisanya is a frontend developer based in Lagos, Nigeria specializing in building and coding beautifully simple things, and I love what I do.',
       },
       {
         hid: 'og:image',
@@ -71,7 +71,7 @@ export default {
         hid: 'twitter:description',
         name: 'twitter:description',
         content:
-          "Buy and send bulk SMS on Nigeria and Africa's reliable text messaging provider, platform, portal and gateway. Best free and premium bulk SMS @ 1 unit per SMS.",
+          'Olatunji Ekisanya is a frontend developer based in Lagos, Nigeria specializing in building and coding beautifully simple things, and I love what I do.',
       },
       {
         hid: 'twitter:image',

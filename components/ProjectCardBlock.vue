@@ -7,7 +7,7 @@
       class="w-full flex sm:w-1/2 lg:w-1/3 sm:px-2 mb-4"
     >
       <div
-        class="w-full py-6 px-8 flex flex-col bg-secondary rounded-lg shadow-lg transition transform hover:-translate-y-2 duration-75 ease-in"
+        class="w-full py-6 px-8 flex flex-col bg-secondary rounded-lg shadow-lg transition transform hover:-translate-y-2 duration-200 ease-linear"
       >
         <div class="flex items-center justify-between">
           <i class="far fa-folder-open text-primary text-3xl" />
@@ -15,13 +15,13 @@
             <a
               v-if="project.githubUrl"
               :href="project.githubUrl"
-              title="Github"
+              :title="project.title"
             >
               <i
                 class="fab fa-github text-light-grey text-lg mr-4 hover:text-primary"
               />
             </a>
-            <a :href="project.siteUrl" title="External">
+            <a target="_blank" :href="project.siteUrl" :title="project.title">
               <i
                 class="fas fa-external-link-alt text-light-grey text-lg hover:text-primary"
               />
@@ -62,11 +62,23 @@ export default {
           siteUrl: 'https://www.bulksmslive.com/',
         },
         {
-          title: 'Quiz Up',
-          description: 'A simple quiz web application',
+          title: 'Oga Recharge',
+          description:
+            'A online web application for instant, recurring recharge',
+          stacks: ['Nuxt.js', 'Tailwind CSS'],
+          siteUrl: 'https://ogarecharge.com/',
+        },
+        {
+          title: 'Ryddl',
+          description: 'Read short essays. Get rewards.',
+          stacks: ['Vue', 'Tailwind CSS', 'Firebase'],
+          siteUrl: 'https://ryddl.com',
+        },
+        {
+          title: 'HelpOS',
+          description: 'Request an Ambulance, Get Help on Time',
           stacks: ['Vue', 'Tailwind CSS'],
-          githubUrl: 'https://github.com/tunjixy/quiz-up',
-          siteUrl: 'https://quizup.netlify.app',
+          siteUrl: 'https://helpos.ng/',
         },
       ],
     }

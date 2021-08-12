@@ -40,7 +40,7 @@ export default {
         }, */
         {
           icon: 'fab fa-linkedin-in',
-          url: 'https://www.linkedin.com/in/olatunji-ekisanya-41ab32182/',
+          url: 'https://www.linkedin.com/in/olatunji-ekisanya/',
         },
         {
           icon: 'fab fa-github',

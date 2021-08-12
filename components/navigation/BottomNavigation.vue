@@ -20,13 +20,6 @@
           {{ link.name }}
         </span>
       </a>
-      <!-- <a
-        class="flex flex-col flex-grow items-center justify-center whitespace-no-wrap text-xs hover:bg-primary hover:bg-opacity-25"
-        href="/OLATUNJI EKISANYA EMMANUEl.docx"
-      >
-        <i class="fas fa-file-word text-light-grey mb-1" />
-        Resume
-      </a> -->
     </nav>
   </div>
 </template>
@@ -48,11 +41,11 @@ export default {
           icon: 'fas fa-user',
           tag: 'about',
         },
-        /* {
+        {
           name: 'Experience',
           icon: 'fas fa-briefcase',
           tag: 'experience',
-        }, */
+        },
         {
           name: 'Projects',
           icon: 'fas fa-tasks',

@@ -9,7 +9,7 @@
           <h4 class="font-bold text-light-grey text-2xl">
             Frontend Developer <span class="text-primary">@ Fullware</span>
           </h4>
-          <h5 class="mt-2">2018 - September 2020</h5>
+          <h5 class="mt-2">2017 - August 2020</h5>
           <div class="mt-4">
             <ul>
               <li
@@ -26,7 +26,7 @@
           <h4 class="font-bold text-light-grey text-2xl">
             Frontend Developer <span class="text-primary">@ Emergent Labs</span>
           </h4>
-          <h5 class="mt-2">September 2020 - Present</h5>
+          <h5 class="mt-2">September 2020 - Till Date</h5>
           <div class="mt-4">
             <ul>
               <li
@@ -50,14 +50,17 @@ export default {
   data() {
     return {
       fullwareExperience: [
-        'Create new features and functionality for several client web apps using Vue/Nuxt Js',
-        'Implement coding standards and rules to ensure better code quality.',
-        'Redesigned and kickstarted the development of several client web apps',
+        'Redesigned and kickstarted several client web apps.',
+        'Coded new features for existing web apps.',
+        'Migrated existing codebase to VueJS, Nuxt',
+        'Implemented frontend business requirements for web apps using VueJS, Nuxt Js',
+        'Implemented improved website UI and UX for customers',
       ],
       emergentLabsExperience: [
-        'Create new features and functionality for several client web apps using Vue/Nuxt Js',
-        'Implement coding standards and rules to ensure better code quality.',
-        'Redesigned and kickstarted the development of several client web apps',
+        'Improved code quality by ensuring code standards are followed.',
+        'Built modern accessible single page applications with JavaScript and Vue, Nuxt.',
+        'Redesigned and kickstarted several client web apps.',
+        'Implemented frontend business requirements for several client web apps using Vue, Nuxt Js',
       ],
     }
   },

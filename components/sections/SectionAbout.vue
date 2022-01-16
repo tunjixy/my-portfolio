@@ -47,7 +47,13 @@ export default {
   name: 'SectionAbout',
   data() {
     return {
-      technologies: ['JavaScrip', 'HTML & (S)CSS', 'Vue', 'Nuxt'],
+      technologies: [
+        'JavaScript',
+        'HTML & (S)CSS',
+        'Tailwind CSS',
+        'Vue Js',
+        'Nuxt Js',
+      ],
     }
   },
 }

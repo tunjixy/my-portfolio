@@ -53,6 +53,7 @@ export default {
         'Tailwind CSS',
         'Vue Js',
         'Nuxt Js',
+        'TypeScript',
       ],
     }
   },

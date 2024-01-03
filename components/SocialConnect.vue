@@ -1,7 +1,7 @@
 <template>
-  <div class="hidden md:block z-50">
+  <div class="z-50 hidden md:block">
     <ul
-      class="animate__animated animate__fadeIn animate__delay-2s animate__faster fixed z-50 bottom-0 left-8 flex flex-col"
+      class="fixed bottom-0 z-50 flex flex-col animate__animated animate__fadeIn animate__delay-2s animate__faster left-8"
     >
       <li
         v-for="(link, index) in links"
@@ -11,11 +11,11 @@
         <a :href="link.url" target="_blank">
           <i
             :class="link.icon"
-            class="text-lg text-light-grey transition duration-300 ease-in transform hover:text-primary hover:-translate-y-1"
+            class="text-lg transition duration-300 ease-in transform text-light-grey hover:text-primary hover:-translate-y-1"
           />
         </a>
       </li>
-      <div class="sidebefore mt-8" />
+      <div class="mt-8 sidebefore" />
     </ul>
   </div>
 </template>
@@ -27,24 +27,20 @@ export default {
     return {
       links: [
         {
-          icon: 'fab fa-facebook-f',
-          url: 'https://www.facebook.com/ekisanya.tunji',
-        },
-        {
-          icon: 'fab fa-twitter',
-          url: 'https://twitter.com/tjxy',
-        },
-        /* {
-          icon: 'fab fa-instagram',
-          url: '',
-        }, */
-        {
           icon: 'fab fa-linkedin-in',
           url: 'https://www.linkedin.com/in/olatunji-ekisanya/',
         },
         {
           icon: 'fab fa-github',
           url: 'https://github.com/tunjixy',
+        },
+        /* {
+          icon: 'fab fa-facebook-f',
+          url: 'https://www.facebook.com/ekisanya.tunji',
+        }, */
+        {
+          icon: 'fab fa-twitter',
+          url: 'https://twitter.com/tjxy',
         },
       ],
     }

@@ -56,11 +56,11 @@ export default {
         content:
           'Olatunji Ekisanya is a frontend developer based in Lagos, Nigeria specializing in building and coding beautifully simple things, and I love what I do.',
       },
-      {
+      /* {
         hid: 'og:image',
         name: 'og:image',
         content: '/share.jpg',
-      },
+      }, */
       // Twitter Card
       {
         hid: 'twitter:title',
@@ -73,11 +73,11 @@ export default {
         content:
           'Olatunji Ekisanya is a frontend developer based in Lagos, Nigeria specializing in building and coding beautifully simple things, and I love what I do.',
       },
-      {
+      /* {
         hid: 'twitter:image',
         name: 'twitter:image',
         content: '/share.jpg',
-      },
+      }, */
       {
         hid: 'twitter:card',
         name: 'twitter:card',

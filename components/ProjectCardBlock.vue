@@ -1,16 +1,16 @@
 <template>
-  <div class="flex flex-wrap sm:-mx-2 mt-5">
+  <div class="flex flex-wrap mt-5 sm:-mx-2">
     <div
       v-for="(project, index) in projects"
       :key="index"
       data-aos="zoom-in"
-      class="w-full flex sm:w-1/2 lg:w-1/3 sm:px-2 mb-4"
+      class="flex w-full mb-4 sm:w-1/2 lg:w-1/3 sm:px-2"
     >
       <div
-        class="w-full py-6 px-8 flex flex-col bg-secondary rounded-lg shadow-lg transition transform hover:-translate-y-2 duration-200 ease-linear"
+        class="flex flex-col w-full px-8 py-6 transition duration-200 ease-linear transform rounded-lg shadow-lg bg-secondary hover:-translate-y-2"
       >
         <div class="flex items-center justify-between">
-          <i class="far fa-folder-open text-primary text-3xl" />
+          <i class="text-3xl far fa-folder-open text-primary" />
           <div class="ml-3">
             <a
               v-if="project.githubUrl"
@@ -18,27 +18,27 @@
               :title="project.title"
             >
               <i
-                class="fab fa-github text-light-grey text-lg mr-4 hover:text-primary"
+                class="mr-4 text-lg fab fa-github text-light-grey hover:text-primary"
               />
             </a>
             <a target="_blank" :href="project.siteUrl" :title="project.title">
               <i
-                class="fas fa-external-link-alt text-light-grey text-lg hover:text-primary"
+                class="text-lg fas fa-external-link-alt text-light-grey hover:text-primary"
               />
             </a>
           </div>
         </div>
-        <h5 class="text-xl font-bold text-light-grey mt-5">
+        <h5 class="mt-5 text-xl font-bold text-light-grey">
           {{ project.title }}
         </h5>
-        <p class="mt-2 flex-grow">
+        <p v-if="project.description" class="flex-grow mt-2">
           {{ project.description }}
         </p>
-        <ul class="flex flex-wrap -mx-2 mt-5">
+        <ul class="flex flex-wrap mt-5 -mx-2">
           <li
             v-for="(stack, i) in project.stacks"
             :key="i"
-            class="mt-2 px-2 text-lightest-gray"
+            class="px-2 mt-2 text-lightest-gray"
           >
             {{ stack }}
           </li>
@@ -57,7 +57,7 @@ export default {
         {
           title: 'Bulksmslive',
           description:
-            'A web application for sending, schedulling and managing bulk SMS',
+            'A web application for sending, scheduling and managing bulk SMS',
           stacks: ['Nuxt.js', 'Tailwind CSS'],
           siteUrl: 'https://www.bulksmslive.com/',
         },
@@ -79,6 +79,12 @@ export default {
           description: 'Request an Ambulance, Get Help on Time',
           stacks: ['Vue', 'Tailwind CSS'],
           siteUrl: 'https://helpos.ng/',
+        },
+        {
+          title: 'Cowrywise Engineering Blog',
+          description: '',
+          stacks: ['Nuxt', 'Tailwind CSS', 'Wordpress'],
+          siteUrl: 'https://engineering.cowrywise.com/',
         },
       ],
     }

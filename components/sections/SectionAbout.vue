@@ -1,7 +1,7 @@
 <template>
   <section id="about" data-aos="fade-up" class="pt-40">
     <div class="container">
-      <h3 class="text-light-grey font-bold text-3xl relative line">
+      <h3 class="relative text-3xl font-bold text-light-grey line">
         About Me
       </h3>
       <div class="flex flex-wrap md:-mx-2">
@@ -24,16 +24,16 @@
             <li
               v-for="(stack, index) in technologies"
               :key="index"
-              class="mt-2 relative pl-4 list w-1/2 px-2"
+              class="relative w-1/2 px-2 pl-4 mt-2 list"
             >
               {{ stack }}
             </li>
           </ul>
         </div>
-        <div class="w-full md:w-1/2 md:px-2 mt-10">
+        <div class="w-full mt-10 md:w-1/2 md:px-2">
           <img
-            class="block mx-auto rounded-lg h-64 w-64 object-cover object-top shadow-img"
-            src="@/assets/images/me.jpg"
+            class="block object-cover object-top w-64 h-64 mx-auto rounded-lg shadow-img"
+            src="@/assets/images/me.jpeg"
             alt="Olatunji Ekisanya"
           />
         </div>
@@ -50,7 +50,7 @@ export default {
       technologies: [
         'JavaScript',
         'HTML & (S)CSS',
-        'Tailwind CSS',
+        'TailwindCSS',
         'Vue Js',
         'Nuxt Js',
         'TypeScript',

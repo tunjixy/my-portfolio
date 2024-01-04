@@ -13,7 +13,7 @@
           <div class="mt-4">
             <ul>
               <li
-                v-for="(experience, index) in emergentLabsExperience"
+                v-for="(experience, index) in cowrywiseExperience"
                 :key="index"
                 class="relative pl-8 mt-2 list"
               >

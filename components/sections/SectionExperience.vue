@@ -24,7 +24,7 @@
         </tab>
         <tab title="Emergent Infastructure Labs">
           <h4 class="text-2xl font-bold text-light-grey">
-            Frontend Developer <span class="text-primary">@ Emergent Labs</span>
+            Frontend Engineer <span class="text-primary">@ Emergent Labs</span>
           </h4>
           <h5 class="mt-2">September 2020 - Till Date</h5>
           <div class="mt-4">
@@ -41,7 +41,7 @@
         </tab>
         <tab title="Fullware Group">
           <h4 class="text-2xl font-bold text-light-grey">
-            Frontend Developer <span class="text-primary">@ Fullware</span>
+            Frontend Engineer <span class="text-primary">@ Fullware</span>
           </h4>
           <h5 class="mt-2">2017 - August 2020</h5>
           <div class="mt-4">
@@ -67,21 +67,22 @@ export default {
   data() {
     return {
       cowrywiseExperience: [
-        'Contributed to the core app, website and other internal web applications',
-        'Built the Cowrywise engineering blog',
+        'Contributed to the core app, website and other internal web applications.',
+        'Refactored and Implemented business logic to the core app.',
+        'Led and executed the development of the Cowrwise Engineering Blog, Optimizing the blog for speed and performance.',
+        "Work on overall monitoring, logging, stability of the Cowrywise dashboard by integrating custom event logging to keep track of users' events on the platform.",
       ],
       emergentLabsExperience: [
         'Improved code quality by ensuring code standards are followed.',
-        'Built modern accessible single page applications with JavaScript and Vue, Nuxt.',
+        'Built modern accessible single page applications with JavaScript and Vue.js.',
         'Redesigned and kickstarted several client web apps.',
-        'Implemented frontend business requirements for several client web apps using Vue, Nuxt Js',
+        'Implemented frontend business requirements for several client web apps using Vue.js and Nuxt.js',
       ],
       fullwareExperience: [
         'Redesigned and kickstarted several client web apps.',
         'Coded new features for existing web apps.',
-        'Migrated existing codebase to VueJS, Nuxt',
-        'Implemented frontend business requirements for web apps using VueJS, Nuxt Js',
-        'Implemented improved website UI and UX for customers',
+        'Migrated existing codebase to Vue.js and Nuxt.js',
+        'Implemented frontend business requirements for web apps using Vue.js and Nuxt.js',
       ],
     }
   },

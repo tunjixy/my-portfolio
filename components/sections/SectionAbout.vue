@@ -8,13 +8,16 @@
         <div class="md:w-1/2 md:px-2">
           <div>
             <p class="mt-10 sm:text-lg">
-              Hello! I'm Olatunji, a frontend developer based in Lagos, Nigeria.
+              Hello! I'm Olatunji, a frontend engineer based in Lagos, Nigeria.
             </p>
-            <p class="mt-4 sm:text-lg">
+            <p class="mt-4 leading-relaxed sm:text-lg">
               I enjoy creating things that live on the internet, whether that be
               websites, applications, or anything in between. My goal is to
               always build products that provide pixel-perfect, performant
-              experiences.
+              experiences. I have 4+ years of professional experience. I am
+              enthusiastic about expanding my knowledge by delving into new
+              technologies and applying innovative solutions to solve complex
+              problems.
             </p>
             <p class="mt-4 sm:text-lg">
               Here are technologies I've been working with:
@@ -48,12 +51,13 @@ export default {
   data() {
     return {
       technologies: [
-        'JavaScript',
-        'HTML & (S)CSS',
+        'HTML',
+        'CSS/SCSS',
         'TailwindCSS',
-        'Vue Js',
-        'Nuxt Js',
+        'JavaScript',
         'TypeScript',
+        'Vue.js',
+        'Nuxt.js',
       ],
     }
   },
